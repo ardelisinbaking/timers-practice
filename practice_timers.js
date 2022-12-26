@@ -16,5 +16,4 @@ const timerFinished = () => {
     process.stdout.write(`\n\nok, diva, done now.`);
     clearInterval(interval);
 }
-
 setTimeout(timerFinished, totalTime);
